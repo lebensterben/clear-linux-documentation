@@ -280,11 +280,11 @@ Install the NVIDIA drivers
       lsmod | grep ^nvidia
 
 #. Optional: Create a link for the nvidia-settings desktop entry to
-   :file:`~/.local/share` so that it appears in the launcher for easy access. 
+   :file:`~/.local/share/applications` so that it appears in the launcher for easy access. 
 
    .. code-block:: bash
 
-      ln -sv /opt/nvidia/share/applications/nvidia-settings.desktop $HOME/.local/share
+      ln -sv /opt/nvidia/share/applications/nvidia-settings.desktop $HOME/.local/share/applications
 
 
 Updating
